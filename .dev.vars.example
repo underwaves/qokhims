@@ -10,7 +10,7 @@ JWT_SECRET="replace-with-your-super-secret-jwt-key-at-least-32-chars"
 
 # ข้อมูลบัญชีแอดมินเริ่มต้น (ระบบจะนำไป Hash ด้วย PBKDF2 ลงตาราง admins อัตโนมัติเมื่อยังไม่มีแอดมินในระบบ)
 ADMIN_INITIAL_USERNAME="admin"
-ADMIN_INITIAL_PASSWORD="qokhims-admin-password"
+ADMIN_INITIAL_PASSWORD="your-strong-password-here"
 
 # (ตัวเลือก) สำหรับฟีเจอร์ส่งสรุปคำสั่งซื้อเข้า LINE แอดมินอัตโนมัติผ่าน LINE Messaging API
 # สามารถเปิด-ปิดการใช้งาน (Feature Flag) ได้จากหน้าตั้งค่าเว็บหลังบ้าน
